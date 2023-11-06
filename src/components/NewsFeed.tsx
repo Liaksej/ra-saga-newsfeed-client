@@ -58,6 +58,7 @@ export default function NewsFeed() {
             <img
               src={getUrl(newsItem) || "https://via.placeholder.com/320x320"}
               alt="image"
+              width="320"
             />
           )}
           <div className="flex justify-between">
