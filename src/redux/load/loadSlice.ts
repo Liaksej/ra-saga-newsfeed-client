@@ -37,11 +37,6 @@ export const loadSlice = createSlice({
   },
 });
 
-export const {
-  addMoreData,
-  fetchError,
-  loading,
-  allContentLoaded,
-  loadingMore,
-} = loadSlice.actions;
+export const { addMoreData, loading, allContentLoaded, loadingMore } =
+  loadSlice.actions;
 export default loadSlice.reducer;

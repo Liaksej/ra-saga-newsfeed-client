@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Attachment,
-  Image as Image2,
-  NewsBunch,
-  Size,
-  Size2,
-} from "@/redux/load/loadStateTypes";
+import { Attachment, NewsBunch } from "@/redux/load/loadStateTypes";
 import { useDispatch, useSelector } from "react-redux";
 import { selectLoad } from "@/redux/load/loadSelectors";
 import { useEffect } from "react";

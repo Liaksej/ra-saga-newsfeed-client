@@ -1,7 +1,6 @@
 import { call, delay, put, takeEvery, takeLatest } from "redux-saga/effects";
 import { SagasActions } from "@/redux/sagas/sagasActions";
 import {
-  fetchError,
   loading,
   addMoreData,
   allContentLoaded,
